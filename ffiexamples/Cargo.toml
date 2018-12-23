@@ -1,0 +1,11 @@
+[package]
+name = "ffiexamples"
+version = "0.1.0"
+authors = ["Jeremy <suddenlysullivan@gmail.com>"]
+
+[lib]
+name = "ffiexamples"
+  crate-type = ["cdylib", "rlib", "staticlib"]
+
+[dependencies]
+libc = "*"
